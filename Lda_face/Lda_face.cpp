@@ -100,7 +100,7 @@ int main() {
 		cout << result_message << endl;
 	}
 	
-	cout << "accuracy = " << float(iCorrectPrediction) / testPhotoNumber << endl;
+	cout << "正确率 = " << float(iCorrectPrediction) / testPhotoNumber << endl;
 
 	return 0;
 }
