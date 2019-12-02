@@ -12,15 +12,13 @@ using namespace cv::face;
 using namespace std;
 
 int g_howManyPhotoForTraining = 5;
-//每个人取出8张作为训练
-int g_photoNumberOfOnePerson = 10;
 //ORL数据库每个人10张图像
+int g_photoNumberOfOnePerson = 10;
 using namespace cv;
 using namespace std;
 
 static Mat norm_0_255(InputArray _src) {
 	Mat src = _src.getMat();
-	// 创建和返回一个归一化后的图像矩阵:
 	Mat dst;
 	switch (src.channels()) {
 	case1:
